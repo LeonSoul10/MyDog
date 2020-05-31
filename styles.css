@@ -1,0 +1,117 @@
+#title{
+    background-color:#d9455f;
+    padding: 3% 15%;
+}
+h1{
+    color: white;
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3rem;
+    height: 15;
+    padding-top: 5rem;
+
+}
+.iphone{
+    padding-top: 5rem;
+    width:60%;
+    transform: rotate(30deg);
+    position: absolute;
+    right:30%;
+}
+/* Navbar */
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 10em;
+    font-weight: bold;
+}
+.download{
+    margin: 7% 0% 7% 5%;
+}
+#features{
+    padding:7% 15%;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    padding:5px;
+    text-align:center;
+}
+h3{
+    font-weight: bold;
+}
+
+
+p{
+    color:#8f8f8f;
+}
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:#d9455f;
+}
+
+#testimonials{
+    color:#fff;
+    background-color: #ef8172;
+    text-align: center;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+h2{
+    font-family: 'Montserrat-black', sans-serif ;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.dog{
+    width:15%;
+    border-radius: 100%;
+    margin:20px;
+}
+.press{
+    width:15%;
+    margin: 20px 50px 50px 50px
+}
+#press{
+    background-color: #ef8172;
+}
+#pricing{
+    padding: 100px;
+}
+.price{
+        text-align: center;
+}
+.container-fluid{
+    padding-bottom: 100px;
+}
+#cta{
+    background-color:#d9455f ;
+    color: #ffffff;
+    text-align: center;
+    padding: 7% 15%;
+
+}
+.cta-head{
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon{
+    margin:20px 10px;
+}
+/* Media Query */
+@media(max-width:1028px){
+    .iphone{
+        position: static;
+        transform: rotate(0);
+    }
+        #title{
+            text-align: center;
+        }
+    }
